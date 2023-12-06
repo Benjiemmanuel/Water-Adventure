@@ -1,11 +1,11 @@
 <template>
   <div
-    class="navbar-container flex item-center justify-between pl-8 pr-8 w-full"
+    class="navbar-container flex item-center justify-between pl-8 pr-8 w-full mt-0"
   >
     <div class="logo flex">
       <img class="w-20" src="../assets/clip-art-3418189_640.webp" alt="" />
       <ul>
-        <li class="headout">headout</li>
+        <li class="text-1xl font-semibold text-white">headout</li>
       </ul>
     </div>
     <div class="navbar-list-items-Left justify-center item-center">
@@ -35,16 +35,8 @@ export default {};
 </script>
 
 <style scoped>
-.navbar-container {
-  margin-top: 0;
-}
 ul {
   padding-top: 15px;
   color: #9dadc2;
-}
-.headout {
-  font-size: 20px;
-  font-weight: 500;
-  color: #edeef0;
 }
 </style>
